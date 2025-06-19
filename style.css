@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Section Styling */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #4CAF50;
+  font-size: 28px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  display: block;margin-top: 20px;
+  width: 250px; /* Fixed size */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Education & Interests Section */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+ul li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+footer button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .about img {
+    max-width: 100%;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+}
